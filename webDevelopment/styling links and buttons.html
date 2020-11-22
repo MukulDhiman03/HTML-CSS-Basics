@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>styling links and buttons</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: cornflowerblue;
+            padding: 34px;
+            margin: 34px auto;
+            width:666px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color:red;
+            background-color: saddlebrown;
+        }
+        a:visited{
+            
+            background-color:yellow;
+        }
+        a:active{
+            background-color:black ;
+        }
+        .btn{
+            background:cyan;
+            padding:6px;
+            border:none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+        .btn:hover{
+            color: rgb(255, 0, 0);
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>this is my heading</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut fugiat eius quia veritatis unde fugit architecto voluptates corrupti! Culpa laboriosam deserunt et labore adipisci voluptates laudantium quae ducimus ea numquam in animi earum esse, consectetur nam quas magnam, eligendi perferendis?</p>
+        <a href="https://google.com" target="_blank"class="btn">READ MORE</a>
+        <button class="btn">contact us</button>
+    </div>
+</body>
+</html>
