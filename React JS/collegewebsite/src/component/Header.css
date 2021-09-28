@@ -1,0 +1,18 @@
+a {
+  color: white !important;
+}
+li:hover {
+  background-color: #ffffffbb;
+}
+
+#apply_btn {
+  padding: 5px;
+  text-align: center;
+  width: 10vw;
+  background-color: rgb(99, 132, 238);
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  border: none;
+  border-radius: 15px;
+}
